@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="transmissão.css">
+  </head>
+  <body>
+    <header>
+        <h1>Transmissão ao vivo</h1>
+      </header>
+      <div class="video-container">
+        <video id="live-stream" controls></video>
+      </div>
+      <div class="comments-container">
+        <form>
+          <textarea id="comments"></textarea>
+          <br>
+          <button type="submit">Enviar</button>
+        </form>
+        <div id="display-comments"></div>
+      </div>
+      <div class="quiz-container">
+        <h2>Questionário</h2>
+        <form>
+          <p>Pergunta 1: Qual é a cor do cavalo branco de Napoleão?</p>
+          <input type="radio" id="q1a1" name="question1" value="branco">
+          <label for="q1a1">Branco</label>
+          <br>
+          <input type="radio" id="q1a2" name="question1" value="preto">
+          <label for="q1a2">Preto</label>
+          <br>
+          <input type="radio" id="q1a3" name="question1" value="marrom">
+          <label for="q1a3">Marrom</label>
+          <br>
+          <p>Pergunta 2: Qual é o planeta mais próximo do sol?</p>
+          <input type="radio" id="q2a1" name="question2" value="Mercúrio">
+          <label for="q2a1">Mercúrio</label>
+          <br>
+          <input type="radio" id="q2a2" name="question2" value="Vênus">
+          <label for="q2a2">Vênus</label>
+          <br>
+          <input type="radio" id="q2a3" name="question2" value="Marte">
+          <label for="q2a3">Marte</label>
+        </form>
+      </div>
+      
+      <footer>
+        <p>Todos os direitos reservados</p>
+      </footer>
+    <script src="transmissão.js"></script>
+  </body>
+</html>

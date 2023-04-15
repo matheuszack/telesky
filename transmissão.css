@@ -1,0 +1,65 @@
+header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    h1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    }
+    
+    .video-container {
+        width: 560px; /* Valor sugerido */
+        height: 315px; /* Valor sugerido */
+        margin: 0 auto; /* centraliza a div na horizontal */
+        position: relative;
+      }
+      
+      
+    
+    #live-stream {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    }
+    .comments-container {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        }
+        
+        textarea {
+        width: 100%;
+        height: 100px;
+        resize: none;
+        }
+        .quiz-container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+          }
+          
+          h2 {
+            margin-bottom: 20px;
+          }
+          
+          form {
+            margin-top: 20px;
+            text-align: left;
+          }
+          
+        

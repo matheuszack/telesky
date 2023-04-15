@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="curso.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie:regular' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="menu-sidebar">
+        <header>
+           <div class="image-text">
+            <span class="image">
+         <img src="skypy (1).png" alt="logo">
+            </span>
+            <div class="text header-text">
+           <span class="name">Telesky</span>
+           <span class="profession">Cursos online</span>
+            </div>
+           </div>
+           <i class="fa-solid fa-arrow-right-from-bracket toggle"></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                        <i class=" icon fa-solid fa-house icon-text"></i>
+                            <span class="menu-texto">
+                                Página Inícial
+                            </span>
+                        </a>
+                      
+                    </li>
+                    <li class="has-subnav">
+                        <a href="#">
+                      <i class="fa-sharp fa-solid fa-book icon icon-file-text icon-text"></i>
+                            <span class="menu-texto">Cursos</span>
+                        </a>
+                        
+                    </li>
+                    
+                    <li class="has-subnav">
+                        <a href="#">
+                  <i class="fa-sharp fa-solid fa-graduation-cap icon icon-text"></i>
+                            <span class="menu-texto">Seus E-book`s</span>
+                        </a>
+                        
+                    </li>
+                    <li class="has-subnav">
+                        <a href="#">
+                       <i class="fa-sharp fa-solid fa-chalkboard icon icon-text"></i>
+                            <span class="menu-texto">bate-papo</span>
+                        </a>
+                       
+                    </li>
+                    
+                    
+                    <li>
+                       <a href="#">
+                        <i class="fa-sharp fa-solid fa-question icon icon-text"></i>
+                            <span class="menu-texto">Pergunte!</span>
+                        </a>
+                    </li>
+                    <li>
+                       <a href="#">
+                            <i class="fa-sharp fa-solid fa-gear icon icon-text"></i>
+                            <span class="menu-texto">Configurações</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="#">
+                    <i class="fa-sharp fa-solid fa-id-card icon icon-text"></i>
+                            <span class="menu-texto"> cadastro </span>
+                        </a>
+                    </li>
+                
+                </ul>
+                <ul class="logout">
+                    
+                    <li>
+                       <a href="#">
+                            <i class="icon icon-plug icon-text"></i>
+                            <span class="menu-texto"> Sair</span>
+                        </a>
+    
+                    </li> 
+                    <div class="btn-dark">
+                        <input type="checkbox" class="checkbox" id="chk" />
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball" id="ball"></div>
+                        </label>
+                    </div>
+                   
+                </ul>
+            </div>
+        </div>
+            </nav>
+    
+       <aside>
+                <div class="logo">
+                    <img src="skypy (1).png" alt="Logo Image">
+                
+                <ul class="nav-links">
+                    <li><a href="#live" >live</a></li>
+                    <li><a href="#">video</a></li>
+                    <li><a href="#">Ebooks</a></li>
+                    
+                    <li><button class="login-button" href="#">Login</button></li>
+                    <li id="divBusca">
+                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                        <button id="btnBusca">Buscar</button></li>
+                        </ul></div>
+               
+       </aside>
+
+       <section class="conteudo">
+        <div class="div-home">
+
+            <h1>Telesky</h1> <br><br>
+            <h3>Telesky é um site voltado para o conhecimento! então todo conhecimento é valido!</h3><br>
+            <p>Aqui você encontrará cursos ou e-books, gratuitos ou não, de maneira fácil e objetiva! ajude esse projeto crescer publique aqui(é possível ser remunerado através de visualizações!) <br> Vídeos
+                aulas, tutoriais, arquivos e ferramentas, podem ser armazenadas gratuitamente e acessada até offline.</p>
+            <p id="conteudo1">Telesky foi concebida por Matheus Freire, desenvolvedor web, que acredita no poder do conhecimento.
+            </p>
+        </div>
+    </section>
+    <section class="live" id="live">
+        <h1 class="tituloCurso">modelos de cursos</h1>
+        <div class="container">
+            <!-- Primeiro Card -->
+            <div class="card">
+                <div class="img">
+                    <video width="320" height="240" controls="controls" autoplay="autoplay">
+                        <source src="Inserir um título.mp4" type="video/mp4">
+                </div>
+                <h1>Curso live</h1>
+                <div class="content">
+                    <p>
+                        Abra uma live e ensine para milhares de pessoas, ou crie uma sala privada com alunos que te pagarão todo mês, as lives públicas permitem que qualquer pessoa também forneça doações ou ganhe aplicando anúncios, as opções são diversas, além da live, é permitido bate-papo e aplicação de exercício logo abaixo da live!  a Telesky fornece todas as opções para que você forneça sua sabedoria !
+                    </p>
+                    <div class="btn"> <button type="button" class="button" onclick="this.classList.toggle('button--loading')">
+                        <span class="button__text">Acesse aqui</span>
+                    </button></div> 
+                </div>
+            </div>
+            <!-- Segundo Card -->
+            <div class="card">
+                <div class="img">
+                    <video width="320" height="240" controls="controls" autoplay="autoplay">
+                        <source src="Notícias.mp4" type="video/mp4">
+                </div>
+                <h1>Vídeos</h1>
+                <div class="content">
+ 
+                       <p> se não gosta da ideia de uma aula ao vivo, então grave suas aulas ! crie um curso gratuito ou não e publique na telesky! os videos só podem ter duração máxima de 1 hora, com uma pequena descrição, além de um titulo, Neste espaço você poderá ser avaliado por diversas pessoas e receber gorjetas ou doações via pix! (além é claro de criar um curso com um preço que lhe seja conveniente),em cada vídeo você poderá criar exercícios ou simulados! 
+                   </p>
+                   <div class="btn"> <button type="button" class="button" onclick="this.classList.toggle('button--loading')">
+                    <span class="button__text">Acesse aqui</span>
+                </button></div> 
+                </div>
+            </div>
+            <!-- Terceiro Card -->
+            <div class="card">
+                <div class="img">
+                <video width="320" height="240" controls="controls" autoplay="autoplay">
+                    <source src="NerkoOne-Regular.ttf" type="video/mp4">
+            </div>
+                <h1>E-books</h1>
+                <div class="content">
+                    <p> você é uma pessoa tímida, mas gosta de ensinar ou quer ganhar uma grana educando alguém? relaxa! na telesky você poderá criar cursos em PDF, WORD, POWER POINT, entre outros formatos, os E-books podem ser publicados de forma gratuita ou não, e no nosso espaço possuímos um corretor ortográfico, que lhe auxiliará para a criação do documento, com dicas e suportes, você também pode receber doações ou gorjetas de qualquer interessado em seu trabalho!
+                    </p>
+                    <div class="btn"> <button type="button" class="button" onclick="this.classList.toggle('button--loading')">
+                        <span class="button__text">Acesse aqui</span>
+                    </button></div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="left">
+            <h4 class="title-footer">TELE <span>SKY</span></h4>
+            <p class="links">
+                
+                <a href="#" title="Home">Home</a>
+                <a href="#" title="Html">Códigos Html</a>
+                <a href="#" title="Css">Códigos Css</a>
+                <a href="#" title="jQuery">Templates Html Css</a>
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+                    <p class="Copyright">Copyright &copy; 2022 Seu site - Todos os Direitos Reservados.</p>
+        </div><!--Left-->
+    </footer>
+
+    <script src="scriptbuton.js"></script>
+</body>
+</html>
